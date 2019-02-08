@@ -1,0 +1,517 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width= device-width initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="fontawesome/webfonts/fa-brands-400.svg">
+
+    <link rel="icon" type="image/png" href="image/GameControl.png">
+
+    <script src="jquery-3.3.1.min.js"></script>
+
+    <title>GameFlix</title>
+
+    <style>
+        .fa{
+                 float:right;
+                 margin: 5px;
+             }
+             .nav-link{
+                 background-color: #007bff;
+                 margin: 10px;
+             }
+             .nav-link:hover{
+                box-shadow:  0 0 7px 4px black !important;
+             }
+
+             header{
+                 width: 100%;
+                 display: inline-block;
+                 margin-top: 0%;
+             }
+
+             #head-section{
+                 
+                 float: right !important;
+             }
+
+             .gid{
+                 color: black !important;
+             }
+
+             input[type="button"]{
+                box-shadow: 0 0 9px 4px black !important;
+             }
+             
+             input[type="button"]:hover{
+                cursor: pointer;
+             }
+
+             .expand{
+                 transition: all 1s !important;
+             }
+
+             .expand:hover{
+                 transform: scale(1.1) !important;
+                 /* box-shadow: 0 0 9px 4px black !important; */
+             }
+
+             .card-text{
+                 font-family: cursive;
+             }
+
+             .foot-icon:hover{
+                 background: white;
+             }
+
+             .scrollTotop{
+                 position: fixed;
+                 bottom: 30px;
+                 right: 30px;
+                 width: 40px;
+                 height: 40px;
+                 line-height: 40px;
+                 text-align: center;
+                 background: #fff;
+                 color: fff;
+                 display: none;
+                 font-size: 20px;
+                 border-radius: 10px;
+                 /* position: absolute; */
+             }
+
+             .scrollTotop:hover{
+                 background: black;
+                 width: 40px;
+                 line-height: 50px;
+                 font-size: 20px;
+                 transition: all 0.5s ease-in-out;
+             }
+            
+         </style>
+
+</head>
+
+<body>
+    <header>
+        <h2 class="gameFlix"><span style="color:#007bff">GAME</span>FLIX</h2>
+
+    </header>
+
+    <a href="#" class="scrollTotop"><i class="fas fa-caret-up"></i></a>
+
+
+    <div class="container-fluid">
+        <!-- navigationBar -->
+
+        <div class="row">
+            <div class="col my-0 col-md-12 col-lg-12">
+
+                    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="toggle Navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse"></div> -->
+
+                <nav class="nav justify-content-center nav-pills flex-column  flex-md-row" id="navbarMenu">
+                    <li><a href="HomePage.html" class="nav-link active"><i class="fa fa-home"></i>HOME</a></li>
+                    <li class=""><a href="purchases.html" class="nav-link"><i class="fa fab fa-shopping-bag"></i>Purchases</a></li>
+                    <li class=""><a href="OurGames.html" class="nav-link"><i class="fa fa-gamepad"></i>Our Games</a></li>
+                    <li class=""><a href="#" class="nav-link"><i class="fa fa-info"></i>About Us</a></li>
+                    <li class=""><a href="#" class="nav-link"><i class="fa fa-phone"></i>Contact Us</a></li>
+                    <li class=""><a href="#" class="nav-link"><i class="fa fa-list"></i>Game Events</a></li>
+
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!-- start slide here -->
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-4 text-white text-uppercase mb-0 gid" style="text-shadow: 0 0 11px black;"><strong>OUR <span style="color:black">GAMES</span> IN <span style="color:black">DEMAND</span></strong></h1>
+                    <div class="title-underline bg-primary"></div>
+                    <p class="text-white text-capitalize mt-2">These are some of our popular Games in demand</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- 1st card -->
+                <div class="col-md-6 col-lg-4 my-3 expand">
+                    <div class="card">
+                        <img src="image/2.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">BattleField 5</h5>
+                            <p class="card-text">
+                                click the button below to order these game<br>
+                                price:<span style="color: red;">$49.99</span>
+                            </p>
+                            <input type="button" class="btn-primary btn-block" value="Order Game">
+                        </div>
+
+                        <div class="card-footer d-flex justify-content-around bg-dark">
+                            <a href="#"><i class="fab fa-facebook fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-twitch fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-twitter fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-youtube fa-2x text-warning"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2nd card -->
+                <div class="col-md-6 col-lg-4 my-3 expand">
+                    <div class="card">
+                        <img src="image/7.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Mortal Kombat X</h5>
+                            <p class="card-text">
+                                click the button below to order these game<br>
+                                price:<span style="color: red;">$79.99</span>
+                            </p>
+                            <input type="button" class="btn-primary btn-block" value="Order Game">
+                        </div>
+
+                        <div class="card-footer d-flex justify-content-around bg-dark">
+                            <a href="#"><i class="fab fa-facebook fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-twitch fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-twitter fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-youtube fa-2x text-warning"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3rd card -->
+                <div class="col-md-6 col-lg-4 my-3 expand">
+                    <div class="card">
+                        <img src="image/8.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Prey</h5>
+                            <p class="card-text">
+                                click the button below to order these game<br>
+                                price:<span style="color: red;">$29.99</span>
+                            </p>
+                            <input type="button" class="btn-primary btn-block" value="Order Game">
+                        </div>
+
+                        <div class="card-footer d-flex justify-content-around bg-dark">
+                            <a href="#"><i class="fab fa-facebook fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-twitch fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-twitter fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-youtube fa-2x text-warning"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4th card -->
+                <div class="col-md-6 col-lg-4 my-3 expand">
+                    <div class="card">
+                        <img src="image/5.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Dishonoured</h5>
+                            <p class="card-text">
+                                click the button below to order these game<br>
+                                price:<span style="color: red;">$49.99</span>
+                            </p>
+                            <input type="button" class="btn-primary btn-block" value="Order Game">
+                        </div>
+
+                        <div class="card-footer d-flex justify-content-around bg-dark">
+                            <a href="#"><i class="fab fa-facebook fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-twitch fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-twitter fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-youtube fa-2x text-warning"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5th card -->
+                <div class="col-md-6 col-lg-4 my-3 expand">
+                    <div class="card">
+                        <img src="image/14.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Tom Clancy The Division</h5>
+                            <p class="card-text">
+                                click the button below to order these game<br>
+                                price:<span style="color: red;">$99.99</span>
+                            </p>
+                            <input type="button" class="btn-primary btn-block" value="Order Game">
+                        </div>
+
+                        <div class="card-footer d-flex justify-content-around bg-dark">
+                            <a href="#"><i class="fab fa-facebook fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-twitch fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-twitter fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-youtube fa-2x text-warning"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6th card -->
+                <div class="col-md-6 col-lg-4 my-3 expand">
+                    <div class="card">
+                        <img src="image/11.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Fifa 19</h5>
+                            <p class="card-text">
+                                click the button below to order these game<br>
+                                price:<span style="color: red;">$70.99</span>
+                            </p>
+                            <input type="button" class="btn-primary btn-block" value="Order Game">
+                        </div>
+
+                        <div class="card-footer d-flex justify-content-around bg-dark">
+                            <a href="#"><i class="fab fa-facebook fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-twitch fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-twitter fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-youtube fa-2x text-warning"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7th card -->
+                <div class="col-md-6 col-lg-4 my-3 expand">
+                    <div class="card">
+                        <img src="image/13.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Tekken 7 </h5>
+                            <p class="card-text">
+                                click the button below to order these game<br>
+                                price:<span style="color: red;">$59.99</span>
+                            </p>
+                            <input type="button" class="btn-primary btn-block" value="Order Game">
+                        </div>
+
+                        <div class="card-footer d-flex justify-content-around bg-dark">
+                            <a href="#"><i class="fab fa-facebook fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-twitch fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-twitter fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-youtube fa-2x text-warning"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8th card -->
+                <div class="col-md-6 col-lg-4 my-3 expand">
+                    <div class="card">
+                        <img src="image/12.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Resident Evil 7</h5>
+                            <p class="card-text">
+                                click the button below to order these game<br>
+                                price:<span style="color: red;">$43.99</span>
+                            </p>
+                            <input type="button" class="btn-primary btn-block" value="Order Game">
+                        </div>
+
+                        <div class="card-footer d-flex justify-content-around bg-dark">
+                            <a href="#"><i class="fab fa-facebook fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-twitch fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-twitter fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-youtube fa-2x text-warning"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 9th card -->
+                <div class="col-md-6 col-lg-4 my-3 expand">
+                    <div class="card">
+                        <img src="image/10.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-capitalize">Dark Souls</h5>
+                            <p class="card-text">
+                                click the button below to order these game<br>
+                                price:<span style="color: red;">$39.99</span>
+                            </p>
+                            <input type="button" class="btn-primary btn-block" value="Order Game">
+                        </div>
+
+                        <div class="card-footer d-flex justify-content-around bg-dark">
+                            <a href="#"><i class="fab fa-facebook fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-twitch fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-twitter fa-2x text-warning"></i>
+                            </a>
+
+                            <a href="#"><i class="fab fa-youtube fa-2x text-warning"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of card section -->
+
+    <!-- start of slider -->
+    <section>
+        <!-- main container -->
+        <div class="container">
+            <div class="row py-5">
+                <div class="col text-center">
+                    <h4 class="display-4 text-dark mb-0 gid" style="font-family: consolas">OUR GAMING EVENTS 2019</h4>
+                    <div class="title-underline bg-primary"></div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8 mx-auto text-center">
+                    <div class="carousel slide" id="example" data-ride='carousel'>
+                        <!-- indicators -->
+                        <ul class="carousel-indicators">
+                            <li class="active" data-target="#example" data-slide-to='0'></li>
+                            <li data-target="#example" data-slide-to='1'></li>
+                            <li data-target="#example" data-slide-to='2'></li>
+                            <li data-target="#example" data-slide-to='3'></li>
+                        </ul>
+                        <!-- images -->
+                        <div class="carousel-inner pb-3">
+                            <div class="carousel-item active">
+                                <img src="image/evt3.jpeg" alt="" class="d-block w-100">
+                            </div>
+
+                            <div class="carousel-item">
+                                    <img src="image/evt2.jpeg" alt="" class="d-block w-100">
+                                </div>
+
+                                <div class="carousel-item">
+                                        <img src="image/evt1.jpg" alt="" class="d-block w-100">
+                                    </div>
+
+                                    <div class="carousel-item">
+                                            <img src="image/evt4.jpeg" alt="" class="d-block w-100">
+                                        </div>
+                        </div>
+                        <!-- end of images -->
+                        <!-- controls -->
+                        <a href="#example" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+
+                        <a href="#example" class="carousel-control-next" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center" style="box-shadow: none;">
+                        <h2 class="gameFlix display-4 text-white mb-0"><span style="color:#007bff">GAME</span>FLIX</h2>
+                </div>
+                <div class="title-underline bg-danger"></div>
+                <p class="mt-2 text-capitalize text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore saepe, obcaecati quis non deserunt laborum nesciunt error consequatur maxime suscipit quas possimus minus voluptatem amet veritatis, facilis placeat. Tempore, autem.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col text-center" style="box-shadow: none;">
+                <a href="#" class="btn foot-icon">
+                    <i class="fab fa-facebook fa-3x text-primary m-2"></i>
+                </a>
+
+                <a href="#" class="btn foot-icon">
+                        <i class="fab fa-twitter fa-3x text-primary m-2"></i>
+                    </a>
+
+                    <a href="#" class="btn foot-icon">
+                            <i class="fab fa-instagram fa-3x text-primary m-2"></i>
+                        </a>
+
+                        <a href="#" class="btn foot-icon">
+                                <i class="fab fa-google fa-3x text-primary m-2"></i>
+                            </a>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/scroll.js"></script>
+
+
+</body>
+
+
+</html>
