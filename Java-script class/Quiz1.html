@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test Quiz</title>
+
+    <style>
+        body{
+            background-color: lightgray;
+            min-width: 100vw;
+        }
+
+        .grid{
+            width: 600px;
+            height: 500px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 10px 50px 50px 50px;
+            border-radius: 50px;
+            border: 2px solid #cbcbcb;
+            box-shadow: 10px 15px 5px #cbcbcb;
+        }
+
+        .grid h1{
+            font-family: monospace;
+            background-color: #57636e;
+            font-size: 60px;
+            color: white;
+            text-align: center;
+            padding: 2px 0px;
+            border-radius: 50px;
+        }
+
+        .grid #questions{
+            font-family: sans-serif;
+            font-size: 24px;
+            color: #57636e;
+        }
+
+        .buttons{
+            margin-top: 30px;
+        }
+
+        #btn0,#btn1,#btn2,#btn3{
+            background-color: #778897;
+            width: 250px;
+            font-size:20px;
+            color:white;
+            border:1px solid  #1d3c6a;
+            border-radius: 50px;
+            margin: 10px 40px 10px 0px;
+            padding: 10px 10px;
+        }
+
+        #progress{
+            font-size:18px;
+            color: #2b2b2b;
+        }
+
+        #btn0:hover,#btn1:hover,#btn2:hover,#btn3:hover{
+            cursor: pointer;
+            background-color: #57636e;
+        }
+
+        #btn0:focus,#btn1:focus,#btn2:focus,#btn3:focus{
+           outline: none;
+        }
+
+       
+    </style>
+
+</head>
+<body>
+
+<div class="grid">
+    <div id="quiz">
+        <h1>QUIZ</h1>
+        <hr style="margin-bottom:20px">
+
+        <p id="questions"></p>
+        <div class="buttons">
+            <button id="btn0"><span id="choice0"></span></button>
+
+            <button id="btn1"><span id="choice1"></span></button>
+
+            <button id="btn2"><span id="choice2"></span></button>
+
+            <button id="btn3"><span id="choice3"></span></button>
+
+        </div>
+
+        <hr style="margin-top: 50px">
+
+        <footer>
+            <p id="progress">Question x of y</p>
+        </footer>
+    </div>
+</div>
+
+<!-- script1 Question.js -->
+<script>
+
+    function Questions(text, choices, answer){
+        this.text = text;
+        this.choices = choices;
+        this.answer = answer;
+    }
+
+    Questions.prototype.correctAnswer = function(choice){
+        return choice === this.answer;
+    }
+
+</script>
+
+<script>
+    function Quiz(questions){
+        this.score = 0;
+        this.questions = questions;
+        this.questionIndex = 0;
+    }
+
+    Quiz.prototype.getQuestionIndex = function(){
+        return this.questions[this.questionIndex];
+    }
+
+    Quiz.prototype.isEnded = function(){
+        return this.questions.length === this.questionIndex;
+    }
+
+    Quiz.prototype.guess = function(answer){
+      
+
+        if(this.getQuestionIndex().correctAnswer(answer)){
+            this.score++;
+        }
+
+        this.questionIndex++;
+    }
+</script>
+
+<script>
+    function populate(){
+        if(quiz.isEnded()){
+            showScores();
+        }else{
+            var element = document.getElementById('questions');
+            element.innerHTML = quiz.getQuestionIndex().text;
+
+            var choices = quiz.getQuestionIndex().choices;
+
+            for(let i=0; i< choices.length;i++){
+               let element = document.getElementById('choice'+i);
+               element.innerHTML = choices[i]; 
+               guess('btn'+i, choices[i]);
+
+            }
+            showProgress();
+        }
+    }
+
+    function guess(id,guess){
+        var button = document.getElementById(id);
+        button.onclick = function(){
+            quiz.guess(guess);
+            populate();
+        }
+    }
+
+    function showProgress(){
+        var currentQuestionNumber = quiz.questionIndex + i;
+
+        var element = document.getElementById('progress');
+        element.innerHTML = "Question"+ currentQuestionNumber+" of "+quiz.questions.length;
+    }
+
+    var questions = [
+        new Questions("Which Language is Used for styling a web page?",["HTML","JQUERY","CSS","XML"],"CSS"),
+        new Questions("Wht  Language is Used for storing data",["PYTHON","SQL","JAVASCRIPT","CSS"],"SQL"),
+        new Questions("which language is used for creating web pages",["CSS","JAVA","HTML","XML"],"HTML"),
+        new Questions("what is the css property for changing the font color of a text",["Font-style","Background-color","Font-color","Color"],"Color"),
+        new Questions("Which html tag is used for creating horizontal line ",["h2","horizontal","hr","hor"],"hr")
+    ];
+
+    var quiz = new Quiz(questions);
+
+    function showScores(){
+        var gameOverHtml = "<h1>Result</h1>";
+        gameOverHtml += "<h2 id='score'> Your scores: "+quiz.score+"</h2>";
+        var element = document.getElementById('quiz');
+        element.innerHTML = gameOverHtml;
+    }
+
+    populate();
+</script>
+    
+</body>
+</html>

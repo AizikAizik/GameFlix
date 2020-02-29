@@ -1,0 +1,790 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"scrip",
+				"script\t<script>"
+			],
+			[
+				"margi",
+				"margin-top\tproperty"
+			],
+			[
+				"br",
+				"breakChain"
+			],
+			[
+				"setT",
+				"setTimeout\t( handler: any, timeout?: long, arguments_..: any ): long Window"
+			],
+			[
+				"func",
+				"function_without_name"
+			],
+			[
+				"funct",
+				"function_with_name"
+			],
+			[
+				"ba",
+				"background-position\tproperty"
+			],
+			[
+				"co",
+				"cover\tbackground-size"
+			],
+			[
+				"backgr",
+				"background-size\tproperty"
+			],
+			[
+				"backgroud",
+				"background-image\tproperty"
+			],
+			[
+				"back",
+				"background\tproperty"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"va",
+				"valid"
+			],
+			[
+				"h",
+				"hard-light\tbackground-blend-mode"
+			],
+			[
+				"s",
+				"soft-light\tbackground-blend-mode"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"fo",
+				"font-style\tproperty"
+			],
+			[
+				"Bac",
+				"background-color\tproperty"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"pa",
+				"padding-bottom\tproperty"
+			],
+			[
+				"backgro",
+				"background\tproperty"
+			],
+			[
+				"trans",
+				"transition\tproperty"
+			],
+			[
+				"marg",
+				"margin-right\tproperty"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"lis",
+				"list-style\tproperty"
+			],
+			[
+				"bac",
+				"background\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"bor",
+				"border-spacing\tproperty"
+			],
+			[
+				"aut",
+				"autoPlay"
+			],
+			[
+				"bo",
+				"border\tproperty"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"gr",
+				"grids_of_3"
+			],
+			[
+				"da",
+				"da-arrows"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"fu",
+				"fun\tFunction"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"colo",
+				"color1"
+			],
+			[
+				"rgb",
+				"rgba()\tcolor"
+			],
+			[
+				"font",
+				"font\tproperty"
+			],
+			[
+				"tex",
+				"text-transform\tproperty"
+			],
+			[
+				"ev",
+				"events"
+			],
+			[
+				"a",
+				"addEventListener"
+			],
+			[
+				"N",
+				"Num1"
+			],
+			[
+				"F",
+				"flagNewNum"
+			],
+			[
+				"backgrou",
+				"background-repeat\tproperty"
+			],
+			[
+				"flex",
+				"flex-shrink\tproperty"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"te",
+				"text-decoration\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"c",
+				"cellspacing\tAttr"
+			],
+			[
+				"b",
+				"border-collapse"
+			],
+			[
+				"bord",
+				"border-collapse\tproperty"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"se",
+				"select\tTag"
+			],
+			[
+				"fon",
+				"font-family\tproperty"
+			],
+			[
+				"po",
+				"progress\tcursor"
+			],
+			[
+				"tr",
+				"transform\tproperty"
+			],
+			[
+				"border-c",
+				"border-color\tproperty"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"to",
+				"toogleStatus"
+			],
+			[
+				"an",
+				"animation-direction\tproperty"
+			],
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"d",
+				"display\tproperty"
+			],
+			[
+				"tran",
+				"transition\tproperty"
+			],
+			[
+				"text-l",
+				"text-decoration-style\tproperty"
+			],
+			[
+				"form",
+				"form1"
+			],
+			[
+				"cp",
+				"cpass1"
+			],
+			[
+				"bacgr",
+				"background-image\tproperty"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"add",
+				"addProducts"
+			],
+			[
+				"sw",
+				"switch"
+			],
+			[
+				"App",
+				"Appliances"
+			],
+			[
+				"Clo",
+				"Clothing"
+			],
+			[
+				"mai",
+				"mainMenu"
+			],
+			[
+				"remo",
+				"removeProduct"
+			],
+			[
+				"vie",
+				"viewCart"
+			],
+			[
+				"ma",
+				"mainMenu"
+			],
+			[
+				"Sh",
+				"ShoppingCart"
+			],
+			[
+				"Ite",
+				"ItemsList"
+			],
+			[
+				"char",
+				"charAt"
+			],
+			[
+				"rand",
+				"randQuestions"
+			],
+			[
+				"ran",
+				"randQuestions"
+			],
+			[
+				"for",
+				"for\tfor"
+			],
+			[
+				"ru",
+				"rules1"
+			],
+			[
+				"or",
+				"organization"
+			],
+			[
+				"Bol",
+				"bold\tfont-weight"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"ca",
+				"case"
+			],
+			[
+				"pri",
+				"price"
+			],
+			[
+				"M",
+				"MOBILE"
+			],
+			[
+				"En",
+				"EnumWithMain"
+			],
+			[
+				"S",
+				"String"
+			],
+			[
+				"sort",
+				"sort2"
+			],
+			[
+				"dis",
+				"displaySortNumbers"
+			],
+			[
+				"so",
+				"sort2"
+			],
+			[
+				"get",
+				"getNum"
+			],
+			[
+				"Sort",
+				"Sorting"
+			],
+			[
+				"new",
+				"newCopyArray"
+			],
+			[
+				"cop",
+				"copyArray"
+			],
+			[
+				"arra",
+				"arrays"
+			],
+			[
+				"num",
+				"numArrays"
+			],
+			[
+				"nu",
+				"number_to_search"
+			],
+			[
+				"nam",
+				"names"
+			],
+			[
+				"Arr",
+				"Arrays"
+			],
+			[
+				"ge",
+				"getNumbers"
+			],
+			[
+				"displ",
+				"displayNumbers"
+			],
+			[
+				"n",
+				"number"
+			],
+			[
+				"numb",
+				"numbers"
+			],
+			[
+				"id",
+				"identicalValidations"
+			],
+			[
+				"fin",
+				"FindLargestNumber"
+			],
+			[
+				"next",
+				"nextInt"
+			],
+			[
+				"inp",
+				"input1"
+			],
+			[
+				"nex",
+				"nextInt"
+			],
+			[
+				"Int",
+				"Integers"
+			],
+			[
+				"cou",
+				"countIntegers"
+			],
+			[
+				"Num",
+				"Number"
+			],
+			[
+				"I",
+				"Integer"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Build With: JavaC"
+			],
+			[
+				"javac",
+				"Build With: JavaC"
+			],
+			[
+				"j",
+				"Build With: JavaC"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 193.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Isaac Ogunleye/Documents/SKUL/N.I.I.T/Projects/Web Front-End Project/purchases.html",
+		"/C/Users/Isaac Ogunleye/Documents/SKUL/N.I.I.T/Projects/Web Front-End Project/css/style.css",
+		"/C/Users/Isaac Ogunleye/Documents/SKUL/N.I.I.T/Projects/Web Front-End Project/HomePage.html",
+		"/C/Users/Isaac Ogunleye/Documents/SKUL/N.I.I.T/Projects/Web Front-End Project/test.html",
+		"/C/Users/Isaac Ogunleye/Videos/Tutorials/Udemy - The Complete Web Developer in 2018 Zero to Mastery/12. Advanced Javascript/6.1 exercise3-SOLUTIONS.js.js",
+		"/C/Users/Isaac Ogunleye/Downloads/The-Profitable-Programmer-Portfolio/final/index.html",
+		"/C/Users/Isaac Ogunleye/Documents/SKUL/Web Sessions/Web Project1/css/style.css",
+		"/C/Users/Isaac Ogunleye/Downloads/The-Profitable-Programmer-Portfolio/final/assets/scripts/app.js",
+		"/C/Users/Isaac Ogunleye/AppData/Roaming/Sublime Text 3/Packages/JavaScript Completions/JavaScript-Completions.sublime-settings",
+		"/C/Users/Isaac Ogunleye/Desktop/N.I.I.T/Projects/Web Front-End Project/javaTest.java",
+		"/C/Users/Isaac Ogunleye/Desktop/N.I.I.T/Projects/Web Front-End Project/fontawesome/js/all.js",
+		"/C/Users/Isaac Ogunleye/Desktop/N.I.I.T/Projects/Web Front-End Project/css/style.css",
+		"/C/Users/Isaac Ogunleye/Desktop/N.I.I.T/Projects/Web Front-End Project/css/bootstrap.css",
+		"/C/Users/Isaac Ogunleye/Desktop/N.I.I.T/Projects/Web Front-End Project/test.html",
+		"/C/Users/Isaac Ogunleye/Desktop/N.I.I.T/Projects/Web Front-End Project/HomePage.html",
+		"/C/Users/Isaac Ogunleye/Downloads/The-Profitable-Programmer-Portfolio/final/bower.json",
+		"/C/Users/Isaac Ogunleye/Desktop/N.I.I.T/Projects/Web Front-End Project/fontawesome/css/fontawesome.css",
+		"/C/Users/Isaac Ogunleye/Desktop/N.I.I.T/Projects/Web Front-End Project/fontawesome/css/all.css",
+		"/C/Users/Isaac Ogunleye/Desktop/N.I.I.T/Projects/Web Front-End Project/test2.html",
+		"/C/Users/Isaac Ogunleye/Desktop/XML Practise/XMLStyle.css",
+		"/C/Users/Isaac Ogunleye/Desktop/XML Practise/Classwork.xml",
+		"/C/Users/Isaac Ogunleye/Videos/Tutorials/Udemy - The Complete Web Developer in 2018 Zero to Mastery/12. Advanced Javascript/8.2 exercise4-SOLUTIONS.js.js",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/JavaArrays/ArrayClass.java",
+		"/C/Users/Isaac Ogunleye/Desktop/index.html",
+		"/C/Users/Isaac Ogunleye/AppData/Roaming/Sublime Text 3/Packages/User/HighlightBuildErrors.sublime-settings",
+		"/C/Users/Isaac Ogunleye/Desktop/Web Sessions/Web Project1/Index.html",
+		"/C/Users/Isaac Ogunleye/Desktop/Web Sessions/HTML sessions/Level 1 HTML/script.js",
+		"/C/Users/Isaac Ogunleye/Desktop/Web Sessions/HTML sessions/Level 1 HTML/Calculator.html",
+		"/C/Users/Isaac Ogunleye/Desktop/Web Sessions/HTML sessions/Level 1 HTML/SideBar.html",
+		"/C/Users/Isaac Ogunleye/Desktop/DayCare Web/nav.html",
+		"/C/Users/Isaac Ogunleye/Desktop/DayCare Web/navstyle.css",
+		"/C/Users/Isaac Ogunleye/Desktop/Web Sessions/HTML sessions/Forms/Form1.html",
+		"/C/Users/Isaac Ogunleye/Desktop/Web Sessions/HTML sessions/Level 1 HTML/Style.css",
+		"/C/Users/Isaac Ogunleye/Downloads/Web-Works/NiitHome.html",
+		"/C/Users/Isaac Ogunleye/Desktop/Web Sessions/Test1.html",
+		"/C/Users/Isaac Ogunleye/Desktop/Web Sessions/Test1.css",
+		"/C/Users/Isaac Ogunleye/Downloads/Web-Works/NiitHome.css",
+		"/C/Users/Isaac Ogunleye/Desktop/Web Sessions/HTML sessions/RedoTest.html",
+		"/C/Users/Isaac Ogunleye/Desktop/Web Sessions/Test2.html",
+		"/C/Users/Isaac Ogunleye/Videos/Tutorials/Udemy - The Complete Web Developer in 2018 Zero to Mastery/7. Advanced CSS/11.2 index.html.html",
+		"/C/Users/Isaac Ogunleye/Videos/Tutorials/Udemy - The Complete Web Developer in 2018 Zero to Mastery/7. Advanced CSS/9.1 index.html.html",
+		"/C/Users/Isaac Ogunleye/Videos/Tutorials/Udemy - The Complete Web Developer in 2018 Zero to Mastery/7. Advanced CSS/10. Exercise Robot Animation Starter Files.html",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/Java Tests/ShoppingCart.java",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/Java Tests/Itemlist.java",
+		"/C/Users/Isaac Ogunleye/Desktop/Web Sessions/HTML sessions/Level 1 HTML/Assignment1.html",
+		"/C/Users/Isaac Ogunleye/Desktop/Web Sessions/Assignment1.html",
+		"/C/Users/Isaac Ogunleye/Desktop/Web Sessions/FirstSession.html",
+		"/C/Users/Isaac Ogunleye/Desktop/Web Sessions/SamepageLinking.html",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/ScannerDemo.java",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/Java ClassWorks/Quiz6.java",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/JavaTest1.java",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/ArrayClass.java",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/EnumWithMain.java",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/EnumIteration.java",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/TwoDimensionalArray.java",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/AddingToArrays.java",
+		"/C/Users/Isaac Ogunleye/Desktop/N.I.I.T/Java Practices/Quiz4.java",
+		"/C/Users/Isaac Ogunleye/Desktop/N.I.I.T/Java Practices/Quiz6.java",
+		"/C/Users/Isaac Ogunleye/Desktop/N.I.I.T/Java Practices/Quiz5.java",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/TestSingleton.java",
+		"/C/Users/Isaac Ogunleye/Desktop/N.I.I.T/Java Practices/FindLargestNumber.java",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/Singleton.java",
+		"/C/Users/Isaac Ogunleye/OneDrive/CountFive.java",
+		"/C/Users/Isaac Ogunleye/AppData/Roaming/Sublime Text 3/Packages/Javatar/Javatar.sublime-settings",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/InitializationBlocks.java",
+		"/C/Users/Isaac Ogunleye/Desktop/N.I.I.T/Java Practices/Quiz1.java",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/FirstClass.java",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/WhileLoopExample.java",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/Java ClassWorks/ClassWork1.java",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/Assignment2.java",
+		"/C/Users/Isaac Ogunleye/Desktop/N.I.I.T/Java Practices/Quiz2.java",
+		"/C/Users/Isaac Ogunleye/Documents/LeicesterNotes/tutorial/tutorial/java/javaOO/QandE/IdentifyMyParts.java",
+		"/C/Users/Isaac Ogunleye/Documents/LeicesterNotes/tutorial/tutorial/java/javaOO/QandE/Problem.java",
+		"/C/Users/Isaac Ogunleye/Documents/LeicesterNotes/tutorial/tutorial/java/javaOO/QandE/ProblemSolved.java",
+		"/C/Users/Isaac Ogunleye/Documents/LeicesterNotes/tutorial/tutorial/java/javaOO/QandE/NumberHolderDisplay.java",
+		"/C/Users/Isaac Ogunleye/Documents/LeicesterNotes/tutorial/tutorial/java/javaOO/QandE/NumberHolder.java",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/JavaBasics/FirstSession.java",
+		"/C/Users/Isaac Ogunleye/Desktop/N.I.I.T/Java Practices/Practise1.java",
+		"/C/Users/Isaac Ogunleye/Desktop/N.I.I.T/Java Practices/Quiz3.java",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/Assignment1.java",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/Java ClassWorks/BoluClasswork.java",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/ScannerDemo",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/Java ClassWorks/SolomonClasswork.java",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/Assignment2_secondclass.java",
+		"/C/Users/Isaac Ogunleye/Desktop/Java Sessions/Scanning1.java",
+		"/C/Users/Isaac Ogunleye/Desktop/N.I.I.T/Java Practices/Samuel.java",
+		"/C/Users/Isaac Ogunleye/Documents/addressBook.java",
+		"/C/Program Files/Sublime Text 3/JavaBeginning.java",
+		"/D/addressBook.java"
+	],
+	"find":
+	{
+		"height": 43.5555555556
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 46.2222222222
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Java/JavaC.sublime-build",
+	"project": "HomePage.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"html",
+				"C:\\Users\\Isaac Ogunleye\\AppData\\Roaming\\Sublime Text 3\\Packages\\User\\HighlightBuildErrors.sublime-settings"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

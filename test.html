@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.css">
+
+        
+        <link rel="stylesheet" href="fontawesome/css/all.css">
+        <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
+        <link rel="stylesheet" href="fontawesome/webfonts/fa-brands-400.svg">
+        <link href="css/style.css" rel="stylesheet">
+
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="fontawesome/js/all.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap.bundle.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.flexisel.js"></script>
+        <script src="js/jquery.cslider.js"></script>
+        <script src="js/easing.js"></script>
+
+        <style>
+            ul li a,p{
+                color: white;
+            }
+
+            .menu-right-btn{
+                padding: 10px 40px;
+                transition: all 300ms ease-in;
+                background: transparent;
+                border-color: 3px solid white !important;
+            }
+
+            .menu-right-btn:hover{
+                background-color: orange;
+                box-shadow:  0 0 7px 4px black;
+            }
+
+            .nav-item:hover{
+                background-color: orange !important;
+                box-shadow:  0 0 7px 4px black;
+            }
+        </style>
+    </head>
+    <body>
+       
+        <header>
+            <nav class="navbar navbar-toggleable-sm navbar-expand-lg navbar-light">
+                <a href="#"><i class="fa fa-home fa-10x"></i></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse"></div>
+
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active"><a href="#tab1" class="nav-link" data-toggle="tab"><i class="fa fa-medal"></i>Medal</a></li>
+                        <li class="nav-item"><a href="#tabTwo" class="nav-link" data-toggle="tab"><i class="fa fa-calendar"></i>Calendar</a></li>
+                        <li class="nav-item"><a href="#tab3" class="nav-link" data-toggle="tab"><i class="fa fa-chain"></i>Chain</a></li>
+                        <li class="nav-item"><a href="#tab4" class="nav-link" data-toggle="tab"><i class="fa fa-taxi"></i>Taxi</a></li>
+                    </ul>
+
+                    <form class="form-inline my-2 my-lg-0">
+                        <button class="btn menu-right-btn border" type="submit">
+                            Sign In Or Register
+                    </button>
+                    </form>
+                </div>
+            </nav>
+        </header>
+
+
+        <div class="tab-content py-5">
+            <div class="tab-pane active" id="tab1">
+                <p>1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, temporibus atque maiores inventore ab in quo officiis ipsam optio sapiente beatae vel quam hic pariatur est. Nobis blanditiis libero voluptatum?</p>
+            </div>
+
+            <div class="tab-pane" id="tabTwo">
+                    <p>2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, temporibus atque maiores inventore ab in quo officiis ipsam optio sapiente beatae vel quam hic pariatur est. Nobis blanditiis libero voluptatum?</p>
+                </div>
+
+                <div class="tab-pane" id="tab3">
+                        <p>3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, temporibus atque maiores inventore ab in quo officiis ipsam optio sapiente beatae vel quam hic pariatur est. Nobis blanditiis libero voluptatum?</p>
+                    </div>
+
+                    <div class="tab-pane" id="tab4">
+                            <p>4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, temporibus atque maiores inventore ab in quo officiis ipsam optio sapiente beatae vel quam hic pariatur est. Nobis blanditiis libero voluptatum?</p>
+                        </div>
+                    </div>
+
+                    
+
+       <script src="js/jquery.min.js"></script>
+
+        <!-- <script>
+            $('.navbar-toggler').dropdown();
+        </script> -->
+    </body>
+</html>

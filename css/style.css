@@ -1,0 +1,60 @@
+html,body{
+    background:linear-gradient(0deg,rgba(255,255,255,0.25),
+    rgba(255,255,255,0.25)),
+     url(../image/ps4.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover; 
+    min-height: 100%;
+    min-width: 100%;
+    /* position: relative; */
+   
+    /* background-position: 0 0; */
+}
+
+
+.gameFlix{
+    color:black ;
+    text-align: center;
+    margin-top: 15px;
+    padding: 20px;
+    text-shadow: 0 0 11px black;
+    font-weight: bold;
+}
+
+.nav-link{
+    padding: 17px !important;
+    
+}
+
+nav li a{
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    transition: all 1s;
+   
+    /* padding: 20px; */
+}
+
+nav li a:hover{
+    transform: scale(1.1);
+    color: white;
+}
+
+.nav-pills{
+    background-color:rgba(0, 0, 0, 0.3);
+    color: black;
+    padding: 15px;
+
+}
+
+.flex-column{
+    text-align: center;
+}
+
+.col{
+    box-shadow: 0 0 7px 4px black;
+}
+

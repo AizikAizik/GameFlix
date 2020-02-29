@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/Animate.css">
+</head>
+
+<!-- Style section  -->
+<style>
+    body{
+            background-color: black;
+            padding: 20px;
+        }
+
+        h2{
+            text-align: center;
+            font-family: Samsung Sans;
+            color: lime;
+            padding: 15px;
+            text-transform: uppercase;
+        }
+    </style>
+
+<!-- UI Section -->
+<body>
+
+    <h2 class="animated slideInRight">Scholarship App</h2>
+
+    <div class="container animated slideInLeft">
+
+        <form class="form1">
+            <div class="form-group">
+                <input type="number" name="age" class="form-control form-control-lg" placeholder="Enter your Age" id="input1">
+            </div>
+
+            <div class="form-group">
+                <input type="number" name="english" class="form-control form-control-lg" placeholder="Enter your English score" id="input2">
+            </div>
+
+            <div class="form-group">
+                <input type="number" name="math" class="form-control form-control-lg" placeholder="Enter your Math score" id="input3">
+            </div>
+
+            <div class="form-group">
+                <input type="number" name="bio" class="form-control form-control-lg" placeholder="Enter your Biology score" id="input4">
+            </div>
+
+            <div class="form-group">
+                <input type="number" name="eco" class="form-control form-control-lg" placeholder="Enter your Economics score" id="input5">
+            </div>
+            <br>
+            <br>
+            <input type="submit" class="btn btn-outline-secondary btn-block" id="mybtn" onclick="return validate()">
+        </form>
+
+
+    </div>
+    <!-- end of UI Section  -->
+
+<!-- Functionality section  -->
+    <script>
+        function validate() {
+            var form = document.querySelector('.form1');
+
+            var age = Number(form.age.value);
+            console.log(age);
+
+            var english = Number(form.english.value);
+            console.log(typeof (english));
+
+            var math = Number(form.math.value);
+
+            var biology = Number(form.bio.value);
+
+            var economics = Number(form.eco.value);
+
+            var total = (english+math+biology+economics);
+
+            var input1 = document.querySelector('#input1');
+
+            var input2 = document.querySelector('#input2');
+
+            var input3 = document.querySelector('#input3');
+
+            var input4 = document.querySelector('#input4');
+
+            var input5 = document.querySelector('#input5');
+
+            if (!age == "" && !english == "" && !math == "" && !biology == "" && !economics == "") {
+
+                if (english > 100 || math > 100 || biology > 100 || economics > 100) {
+                    alert("a score cannot be greater than 100 percent");
+                    return false;
+                }
+
+                if (english <0 || math <0 || biology <0 || economics <0 || age < 0) {
+                    alert("your score or age cannot be less than 0");
+                    return false;
+                }
+
+                if (age >= 18 && english >= 70 && math >= 80 && biology >= 75 && economics >= 65) {
+                    alert("You are qualified for our scholarship entry");
+                    alert("your english score is "+english+" /100\n"+
+                            "your math score is "+ math+" /100\n"+"your biology score is "+ biology+" /100\n" + "your economics score is "+ economics+" /100\n");
+
+                    alert("your total score is "+total+"/400");
+                } else {
+                    alert("You are not qualified for our scholarship");
+                    //prevdefault();
+                }
+            } else {
+                alert("One or more fields are empty\n Please fill in all fields");
+                //if the image filed is empty sed the border to red
+                if(age ==""){
+                    input1.style.border = "3px solid darkred";
+                    //return false;
+                }else{
+                    // set the border back to the default color
+                    input1.style.border = "#ced4da";
+                }
+
+                 if(english ==""){
+                    input2.style.border = "3px solid darkred";
+                }else{
+                    input2.style.border = "#ced4da";
+                }
+
+                if(math ==""){
+                    input3.style.border = "3px solid darkred";
+                }else{
+                    input3.style.border = "#ced4da";
+                }
+
+                if(economics ==""){
+                    input5.style.border = "3px solid darkred";
+                }else{
+                    input5.style.border = "#ced4da";
+                }
+
+                if(biology ==""){
+                    input4.style.border = "3px solid darkred";
+                }else{
+                    input4.style.border = "#ced4da";
+                }
+
+                return false;
+            }
+
+            function prevdefault() {
+
+                form.addEventListener('submit', (event) => {
+                    event.preventDefault();
+
+                    event.target.age.value = "";
+                    event.target.english.value = "";
+                    event.target.math.value = "";
+                    event.target.biology.value = "";
+                    event.target.economics.value = "";
+                });
+            }
+
+            prevdefault();
+
+        }
+    </script>
+<!-- end of Functionality section  -->
+
+    <!-- <script src="jquery-3.3.1.min.js"></script> -->
+
+</body>
+
+</html>

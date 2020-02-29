@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link href="css/style.css" rel="stylesheet"> -->
+    </head>
+
+
+    <body>
+    <p>Click the button below to see what happens</p>
+
+    <button onclick="return arrays1()">Click me for Array</button>
+
+    <p id="demo"></p>
+
+    <!-- arrays -->
+    <script>
+
+        function arrays1(){
+            var cars = new Array('Volvo','Saab','BMW');
+            document.getElementById('demo').innerHTML= cars+ "<br>" +
+            "<br>" + cars[0] +
+            "<br>" + cars[1]+
+            "<br>" + cars[2];
+        }
+
+    </script>
+
+    <button onclick="return arrObj()"> Click me for Array Object </button>
+    <p id="demo2"></p>
+    <!-- Array Object -->
+    <script>
+
+        function arrObj(){
+            var person = {
+                firstName: "Isaac",
+                 lastName:"Anne",
+                  age:20
+                }
+
+            document.getElementById('demo2').innerHTML= 
+            "my first Name is "+ person["firstName"]+ "<br>"+
+            "my last Name is "+ person["lastName"]+ "<br>"+
+            "i am "+ person["age"]+" Years of Age";
+
+        }
+    </script>
+
+
+    <!-- date function -->
+    <p id="year"></p>
+    <p id="month"></p>
+    <p id="day"></p>
+    <p id="monArr"></p>
+    <p id="console1"></p>
+
+    <script>
+
+        function dateFunc(){
+            var date = new Date();
+            var x=document.getElementById('year');
+            var y = date.getFullYear();
+            x.innerHTML = y;
+            console.log(y);
+
+        }
+
+        function getmonth(){
+
+            let date = new Date();// create a date object and assigns it 2 a variable
+            let x = document.querySelector('#month');
+            let y = date.getMonth();
+            x.innerHTML = y;
+
+            if(y == 0){
+                console.log("January");
+            }
+
+        }
+
+        function monthArray(){
+
+            let d = new Date();
+            let months = 
+            ["January", "February", "March", "April","May","June","July","August","September","October","Novemeber", "December"];
+
+           let monthName = document.getElementById('monArr').innerHTML = months[d.getMonth()];
+
+        }
+
+        dateFunc();
+        getmonth();
+        monthArray();
+        
+    </script>
+
+    </body>
+</html>

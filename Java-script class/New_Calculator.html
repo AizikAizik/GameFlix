@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Isaacs Calculator</title>
+    <link rel="icon" href="../image/icons8Calculator.png">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+
+    <style>
+        body{
+            padding-top: 30px;
+            min-height: 100vh;
+        }
+        table{
+           margin-left: auto;
+           margin-right: auto;
+           border: 6px solid black;
+           border-radius: 10px 10px 0px 0px;
+       }
+
+       input[type=button]{
+           width: 50px;
+           height: 50px;
+           padding: 10px;
+           font-family: monospace;
+           font-style: italic;
+           cursor: pointer;
+           background-color: limegreen;
+           color: white;
+           font-weight: bold;
+           box-shadow: 0 0 14px 4px black;
+           border-radius: 5px;
+       }
+
+       input[type=text]{
+           width: 100%;
+           padding: 5px;
+           font-family: Samsung Sans;
+           text-align: right;
+           border: none;
+           font-weight: bold;
+           background-color: white;
+           color: black;
+           margin: 0;
+           outline: none;
+       }
+   </style>
+</head>
+
+<body class="container bg-dark">
+
+    <table class="">
+        <tr>
+            <td colspan="5">
+                <input type="text" id="third_screen" readonly="readonly">
+            </td>
+        </tr>
+        <tr>
+             <td colspan="5">
+                <input type="text" id="second_screen" readonly="readonly">
+            </td>
+        </tr>   
+           
+        <tr>
+            <td colspan="5">
+                <input type="text" id="first_screen" readonly="readonly">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="button" value="MC" id="MC" onclick="return keyPress(this.id)">
+            </td>
+            <td>
+                <input type="button" value="MR" id="MR" onclick="keyPress(this.id)">
+            </td>
+            <td>
+                <input type="button" value="MS" id="MS" onclick="keyPress(this.id)">
+            </td>
+            <td>
+                <input type="button" value="M+" id="M+" onclick="keyPress(this.id)">
+            </td>
+            <td>
+                <input type="button" value="M-" id="M-" onclick="keyPress(this.id)">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="button" value="<--" id="<--" onclick="keyPress(this.id)">
+            </td>
+            <td>
+                <input type="button" value="CE" id="CE" onclick="keyPress(this.id)">
+            </td>
+            <td>
+                <input type="button" value="C" id="C" onclick="keyPress(this.id)">
+            </td>
+            <td>
+                <input type="button" value="+/-" id="+/-" onclick="keyPress(this.id)">
+            </td>
+            <td>
+                <input type="button" value="sqrt" id="sqrt" onclick="keyPress(this.id)">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="button" value="7" id="7" onclick="return keyPress(this.id)">
+            </td>
+            <td>
+                <input type="button" value="8" id="8" onclick="keyPress(this.id)">
+            </td>
+            <td>
+                <input type="button" value="9" id="9" onclick="keyPress(this.id)">
+            </td>
+            <td>
+                <input type="button" value="/" id="/" onclick="keyPress(this.id)">
+            </td>
+            <td>
+                <input type="button" value="%" id="%" onclick="keyPress(this.id)">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="button" value="4" id="4" onclick="keyPress(this.id)">
+            </td>
+            <td>
+                <input type="button" value="5" id="5" onclick="keyPress(this.id)">
+            </td>
+            <td>
+                <input type="button" value="6" id="6" onclick="keyPress(this.id)">
+            </td>
+            <td>
+                <input type="button" value="*" id="*" onclick="keyPress(this.id)">
+            </td>
+            <td>
+                <input type="button" value="1/x" id="1/x" onclick="keyPress(this.id)">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="button" value="1" id="1" onclick="keyPress(this.id)">
+            </td>
+            <td>
+                <input type="button" value="2" id="2" onclick="keyPress(this.id)">
+            </td>
+            <td>
+                <input type="button" value="3" id="3" onclick="keyPress(this.id)">
+            </td>
+            <td>
+                <input type="button" value="-" id="-" onclick="keyPress(this.id)">
+            </td>
+            <td rowspan="2">
+                <input type="button" value="=" id="="  style="height:104px" onclick="keyPress(this.id)">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <input type="button" value="0" id="0" style="width:104px">
+            </td>
+            <td>
+                <input type="button" value="." id="." onclick="keyPress(this.id)">
+            </td>
+            <td>
+                <input type="button" value="+" id="+" onclick="keyPress(this.id)">
+            </td>
+
+        </tr>
+
+    </table>
+
+    <script src="new_Calculator.js"></script>
+</body>
+
+</html>

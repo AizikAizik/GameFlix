@@ -1,0 +1,233 @@
+
+#load{
+    position: absolute;
+    width: 600px;
+    height: 36px;
+    left: 50%;
+    top: 40%;
+    margin-left: -300px;
+    overflow: visible;
+    cursor: default;
+    z-index: 999;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#fatherLoad{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 900;
+    background-color: black;
+}
+
+#load div{
+    position: absolute;
+    width: 20px;
+    height: 36px;
+    opacity: 0;
+    font-family: cursive, sans-serif,Arial,helvetica;
+
+    -moz-animation: move 2s linear infinite;
+    -webkit-animation: move 2s linear infinite;
+    animation: move 2s linear infinite;
+
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+
+    color: #35c4f0;
+}
+
+#load div:nth-child(2){
+    animation-delay: 0.2s;
+    -moz-animation-delay: 0.2s;
+    -webkit-animation-delay: 0.2s;
+}
+
+#load div:nth-child(3){
+    animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    -webkit-animation-delay: 0.4s;
+}
+
+#load div:nth-child(4){
+    animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    -webkit-animation-delay: 0.6s;
+}
+
+#load div:nth-child(5){
+    animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    -webkit-animation-delay: 0.8s;
+}
+
+#load div:nth-child(6){
+    animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+}
+
+#load div:nth-child(7){
+    animation-delay: 1.2s;
+    -moz-animation-delay: 1.2s;
+    -webkit-animation-delay: 1.2s;
+}
+
+@-moz-keyframes move{
+    0%{
+        left: 0;
+        opacity: 0;
+    }
+    35%{
+        left: 41%;
+        transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        opacity: 1;
+    }
+    65%{
+        left: 59%;
+        transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        opacity: 1;
+    }
+
+    100%{
+        left: 100%;
+        transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes move{
+    0%{
+        left: 0;
+        opacity: 0;
+    }
+    35%{
+        left: 41%;
+        transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        opacity: 1;
+    }
+    65%{
+        left: 59%;
+        transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        opacity: 1;
+    }
+
+    100%{
+        left: 100%;
+        transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        opacity: 0;
+    }
+}
+
+@keyframes move{
+    0%{
+        left: 0;
+        opacity: 0;
+    }
+    35%{
+        left: 41%;
+        transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        opacity: 1;
+    }
+    65%{
+        left: 59%;
+        transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        opacity: 1;
+    }
+
+    100%{
+        left: 100%;
+        transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        opacity: 0;
+    }
+}
+
+body{
+    background-image: url(../image/puch1.png);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    padding-top: 10px;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+}
+
+.navbar{
+    border-bottom: #008eab 3px solid;
+    opacity: 0.8;
+
+}
+
+/* #home-section{
+    background: url('../image/puch2.jpeg') no-repeat center top fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+    padding-top: 40%;
+
+}
+    */
+
+     #dark-overlay{
+        background-color: rgba(0,0,0,0.7);
+        position: absolute;
+        top: 10%;
+        left: 0;
+        width: 100%;
+        min-height: 700px;
+        padding-top: 25px;
+    } 
+
+    #home-inner{
+        padding-top: 150px;
+    }
+
+    .card-form{
+        opacity: 0.8;
+    }
+
+    .fa{
+        color: #008eab;
+        background: white;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 30px;
+    }
+
+    h2,.p-4{
+        color: white;
+    }
+
+    .p-4{
+        font-family: cursive;
+    }
+
+    form{
+        padding: 30px;
+    }
+
+    
+    .form-focus:focus{
+        background-color: #ffffff !important;
+    }
+    /* input[type="password"]:after{
+        content: '\f105';
+        font-family: 'FontAwesome';
+        font-size: 1em;
+        
+    } */
+
+    
